@@ -29,7 +29,7 @@ public class MainPage {
         //Creating the MenuBar and adding components
         JMenuBar mb = new JMenuBar();
         JMenu m1 = new JMenu("All Recipes");
-        JMenu m2 = new JMenu("My Recipes");
+        JMenu m2 = new JMenu("Private Recipes");
         JButton logOut = new JButton("Log Out");
         
         logOut.addActionListener(new ActionListener() {
